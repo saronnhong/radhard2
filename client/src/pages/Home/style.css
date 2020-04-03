@@ -70,6 +70,7 @@
 @media only screen and (max-width: 600px) {
   .homeTop{
     background: url("/images/satellite-1030779_1600x525crop.jpg");
+    filter:brightness(115%);
     background-size: cover;
     background-position-x: 490px;
     height: 75vw;
@@ -77,22 +78,22 @@
   }
   .bannerContainer{
     margin-left: 5px;
-    top: 37px;
+    top: 45px;
   }
   .homeBanner{
-    color: rgb(41, 41, 41);
+    color: rgb(69, 69, 69);
     font-weight: 600;
     font-size: 36px;
   }
   .homeBannerText{
     font-size: 18px;
     width: 75vw;
-    color: rgb(41, 41, 41,.9);
+    color: rgb(69, 69, 69,.9);
   }
   .contactUsBtn{
     position: relative;
     left:10px;
-    top: 30px;
+    top: 45px;
     background-color: #099BCA;
     font-weight: 600;
     font-size: medium;
@@ -105,13 +106,13 @@
     top: 60px;
   }
   .homeTitle{
-    font-size: 36px;
+    font-size: 32px;
   }
   .homeText{
     /* margin-top: 25px; */
     font-size: 16px;
     margin: 25px 5px;
-    line-height: 1.8;
+    /* line-height: 1.8; */
   }
 }
 
