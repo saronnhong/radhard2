@@ -24,12 +24,12 @@ app.post("/send-email", function (req, res) {
   const msg = {
     to: req.body.email.sender,
     from: req.body.email.recipient,
-    // subject: `RADHARD: Message received from ${req.body.email.subject}`,
+    subject: `RADHARD: Message received from ${req.body.email.subject}`,
     // html: `MESSAGE: ${req.body.email.text}
     // PHONE: ${req.body.email.phone}
     // FROM: ${req.body.email.subject}
     // EMAIL: ${req.body.email.from}`,
-    subject: `<!OCTYPE html>
+    html: `<!OCTYPE html>
     <html lang="en" style='vertical-align: baseline; --blue: #00bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc34; --orange: #fde14; --yellow: #ffc10; --green: #28a4; --teal: #20c99; --cyan: #1a2b8; --white: #fff; --gray: #6cd; --gray-dark: #343a40; --primary: #00bff; --secondary: #6cd; --success: #28a4; --info: #1a2b8; --warning: #ffc10; --danger: #dc34; --light: #f8f9fa; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 6px; --breakpoint-md: 68px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: -apple-system,linkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; box-sizing: border-box; -webkit-text-size-adjust: 100; -webkit-tap-highlight-color: transparent; text-shadow: none !important; box-shadow: none !important; font-style: normal; font-variant: normal; font-weight: normal; font-size: normal; line-height: normal; margin: 0; padding: 0; border: 0;'>
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
