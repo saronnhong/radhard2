@@ -28,8 +28,7 @@ app.post("/send-email", function (req, res) {
     html: `MESSAGE: ${req.body.email.text}
     PHONE: ${req.body.email.phone}
     FROM: ${req.body.email.subject}
-    EMAIL: ${req.body.email.from}`,
-    
+    EMAIL: ${req.body.email.from}`
   };
   sgMail.send(msg)
     .then((msg) => {
