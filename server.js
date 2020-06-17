@@ -24,10 +24,11 @@ app.post("/send-email", function (req, res) {
   const msg = {
     to: req.body.email.sender,
     from: req.body.email.recipient,
-    subject: `${req.body.email.subject} has sent you a new message`,
-    html: `MESSAGE: ${req.body.email.text} 
+    subject: `RADHARD: Message received from ${req.body.email.subject}`,
+    html: `MESSAGE: ${req.body.email.text} \n\n
     PHONE: ${req.body.email.phone} 
-    FROM: ${req.body.email.from}`,
+    FROM: ${req.body.email.subject}
+    EMAIL: ${req.body.email.from}`,
   };
   sgMail.send(msg)
     .then((msg) => {
