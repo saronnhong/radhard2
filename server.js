@@ -26,8 +26,8 @@ app.post("/send-email", function (req, res) {
     from: req.body.email.recipient,
     subject: `RADHARD: Message received from ${req.body.email.subject}`,
     html: `MESSAGE: ${req.body.email.text} \n\n
-    PHONE: ${req.body.email.phone} 
-    FROM: ${req.body.email.subject}
+    PHONE: ${req.body.email.phone} \n\n
+    FROM: ${req.body.email.subject} \n\n
     EMAIL: ${req.body.email.from}`,
   };
   sgMail.send(msg)
