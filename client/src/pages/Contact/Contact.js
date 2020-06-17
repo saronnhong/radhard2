@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Footer from "../../components/Footer";
 import "./style.css";
 
-
-// Allow less secure apps: ON in gmail settings to be able to send email
 class Contact extends Component {
     state = {
         email: {
