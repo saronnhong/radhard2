@@ -16,15 +16,15 @@ class Service extends Component {
                     <h1 className="serviceTitle text-center">Services</h1>
                     <div className="row serviceRow">
                         <div className="col-md-4">
-                            <img className="serviceListImage" src="/images/raisting-3930778_640.jpg" width="95%" alt="service_image" />
+                            <img className="serviceListImage" src="/images/flying-sat-min.jpg" width="95%" alt="service_image" />
                             <h2 className="serviceListTitle">RADIATION HARDENING BY PROCESS AND DESIGN</h2>
                         </div>
                         <div className="col-md-4">
-                            <img className="serviceListImage" src="/images/rocket-launch-67721_640.jpg" width="95%" alt="service_image" />
+                            <img className="serviceListImage" src="/images/COTS-min.jpg" width="95%" alt="service_image" />
                             <h2 className="serviceListTitle">COTS PARTS MISSION ASSURANCE</h2>
                         </div>
                         <div className="col-md-4">
-                            <img className="serviceListImage" src="/images/space-station-60615_640.jpg" width="95%" alt="service_image" />
+                            <img className="serviceListImage" src="/images/TCAD-min.jpg" width="95%" alt="service_image" />
                             <h2 className="serviceListTitle">TCAD DESIGN & SIMULATIONS</h2>
                         </div>
                     </div>
@@ -41,15 +41,15 @@ class Service extends Component {
                     </div>
                     <div className="row serviceRow2">
                         <div className="col-md-4">
-                            <img className="serviceListImage" src="/images/raisting-3930778_640.jpg" width="95%" alt="service_image" />
+                            <img className="serviceListImage" src="/images/EDA-Flow-min.jpg" width="95%" alt="service_image" />
                             <h2 className="serviceListTitle">EDA FLOWS</h2>
                         </div>
                         <div className="col-md-4">
-                            <img className="serviceListImage" src="/images/rocket-launch-67721_640.jpg" width="95%" alt="service_image" />
+                            <img className="serviceListImage" src="/images/circuit-board2-min.jpg" width="95%" alt="service_image" />
                             <h2 className="serviceListTitle">RADIATION HARDENED PDK</h2>
                         </div>
                         <div className="col-md-4">
-                            <img className="serviceListImage" src="/images/space-station-60615_640.jpg" width="95%" alt="service_image" />
+                            <img className="serviceListImage" src="/images/component-analysis-min.jpg" width="95%" alt="service_image" />
                             <h2 className="serviceListTitle">COMPONENT ANALYSES</h2>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ class Service extends Component {
                             <p className="serviceListText">Electronic Design Automation (EDA) flow for complex integrated circuit designs.</p>
                         </div>
                         <div className="col-md-4">
-                            <p className="serviceListText">Process Design Kit (PDK) developemnt and assessment for radiation hardened designs.</p>
+                            <p className="serviceListText">Process Design Kit (PDK) development and assessment for radiation hardened designs.</p>
                         </div>
                         <div className="col-md-4">
                             <p className="serviceListText">Single event rate predictions, total ionizing and non-ionizing dose impact.</p>
@@ -66,11 +66,11 @@ class Service extends Component {
                     </div>
                     <div className="row serviceRow2">
                         <div className="col-md-4">
-                            <img className="serviceListImage" src="/images/raisting-3930778_640.jpg" width="95%" alt="service_image" />
+                            <img className="serviceListImage" src="/images/Radiation-Hardening.jpg" width="95%" alt="service_image" />
                             <h2 className="serviceListTitle">RADIATION INDUCED UPSET MITIGATION</h2>
                         </div>
                         <div className="col-md-4">
-                            <img className="serviceListImage" src="/images/rocket-launch-67721_640.jpg" width="95%" alt="service_image" />
+                            <img className="serviceListImage" src="/images/Radiation-Testing-min.jpg" width="95%" alt="service_image" />
                             <h2 className="serviceListTitle">RADIATION TESTING</h2>
                         </div>
                     </div>
