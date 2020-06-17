@@ -5,7 +5,7 @@ import "./style.css";
 class Contact extends Component {
     state = {
         email: {
-            recipient: 'sn.reactport@gmail.com',
+            recipient: 'the.radhard@gmail.com',
             sender: 'chich20x6@gmail.com',
             from: '',
             phone: '',
