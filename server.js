@@ -24,11 +24,7 @@ app.post("/send-email", function (req, res) {
   const msg = {
     to: req.body.email.sender,
     from: req.body.email.recipient,
-    subject: `RADHARD: Message received from ${req.body.email.subject}`,
-    // html: `MESSAGE: ${req.body.email.text}
-    // PHONE: ${req.body.email.phone}
-    // FROM: ${req.body.email.subject}
-    // EMAIL: ${req.body.email.from}`
+    subject: `New message from ${req.body.email.subject}`,
     html: `<p>FROM: ${req.body.email.subject} <br>PHONE: ${req.body.email.phone}<br>EMAIL: ${req.body.email.from}</p>
           <p>MESSAGE: ${req.body.email.text}</p>`
   };

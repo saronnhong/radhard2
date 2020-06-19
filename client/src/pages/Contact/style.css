@@ -43,6 +43,10 @@
 .emailSubmitBtn{
     margin-top: 20px;
     padding: 10px 15px;
+    background-color: #099BCA;
+}
+.emailSubmitBtn:hover {
+    background-color: #099BCA;
 }
 .contactInfo{
     margin-top: 20px;
