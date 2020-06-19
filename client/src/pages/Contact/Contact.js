@@ -77,7 +77,7 @@ class Contact extends Component {
                                         <textarea className="form-control" rows="7" aria-label="With textarea" value={email.text}
                                             onChange={e => this.setState({ email: { ...email, text: e.target.value } })}></textarea>
                                     </div>
-                                    <button className="btn btn-primary emailSubmitBtn hvr-shadow" type="button" onClick={() => {
+                                    <button className="btn btn-dark emailSubmitBtn hvr-shadow hvr-sweep-to-right" type="button" onClick={() => {
                                         this.sendEmail();
                                     }}> Send Message</button>
                                 </form>
