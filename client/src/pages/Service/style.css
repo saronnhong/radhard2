@@ -85,9 +85,14 @@
     .serviceTitle{
         font-size: 28px;
       }
-    
-    
-    
+    .serviceListTitle{
+        margin-top: 10px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .serviceListText{
+        margin-bottom: 36px;
+    }
   }
   @media only screen and (min-width: 350px) and (max-width: 568px) {
     .serviceBanner{
@@ -107,7 +112,15 @@
       }
       .serviceTitle{
           font-size: 28px;
-        }
+      }
+    .serviceListTitle{
+        margin-top: 20px;
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .serviceListText{
+        margin-bottom: 36px;
+    }
     
   }
   
@@ -118,18 +131,19 @@
         background-position: center;
         height: 75vw;
         top: 35px; 
-      }
-      .whatWeDo{
-          top: 65vw;
-          font-size: 28px;
-      }
-      .serviceContent{
-          position: relative;
-          top: 60px;
-      }
-      .serviceTitle{
-          font-size: 28px;
-        }
-    
-    
+    }
+    .whatWeDo{
+        top: 65vw;
+        font-size: 28px;
+    }
+    .serviceContent{
+        position: relative;
+        top: 60px;
+    }
+    .serviceTitle{
+        font-size: 28px;
+    }
+    .serviceListTitle{
+        margin-top: 20px;
+    }
   }
