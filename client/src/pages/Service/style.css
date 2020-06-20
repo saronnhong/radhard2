@@ -100,6 +100,9 @@
     .serviceListImage{
         width: 100%;
     }
+    .serviceRow2{
+        margin-top: 0px;
+    }
   }
   @media only screen and (min-width: 350px) and (max-width: 568px) {
     .serviceBanner{
@@ -131,6 +134,9 @@
     .serviceListImage{
         width: 100%;
     }
+    .serviceRow2{
+        margin-top: 0px;
+    }
   }
   
   @media only screen and (min-width: 569px)and (max-width: 1000px) {
@@ -153,6 +159,9 @@
         font-size: 28px;
     }
     .serviceListTitle{
+        margin-top: 20px;
+    }
+    .serviceRow2{
         margin-top: 20px;
     }
   }
