@@ -66,6 +66,10 @@
     font-size: 16px;
     color: #626365;
 }
+
+.serviceListImage{
+    width: 96%;
+}
 @media only screen and (max-width: 349px) {
     .serviceBanner{
       background: url("/images/spacex-VBNb52J8Trk-unsplash_small-min.jpg");
@@ -92,6 +96,9 @@
     }
     .serviceListText{
         margin-bottom: 36px;
+    }
+    .serviceListImage{
+        width: 100%;
     }
   }
   @media only screen and (min-width: 350px) and (max-width: 568px) {
@@ -121,7 +128,9 @@
     .serviceListText{
         margin-bottom: 36px;
     }
-    
+    .serviceListImage{
+        width: 100%;
+    }
   }
   
   @media only screen and (min-width: 569px)and (max-width: 1000px) {
