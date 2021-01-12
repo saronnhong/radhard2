@@ -22,8 +22,8 @@ sgMail.setApiKey(process.env.RADHARD_API_KEY);
 app.post("/send-email", function (req, res) {
 
   const msg = {
-    to: req.body.email.sender,
-    from: req.body.email.recipient,
+    to: req.body.email.recipient,
+    from: req.body.email.sender,
     subject: `New message from ${req.body.email.name}`,
     html: `<p>FROM: ${req.body.email.name} <br>PHONE: ${req.body.email.phone}<br>EMAIL: ${req.body.email.from}</p>
           <p>MESSAGE: ${req.body.email.text}</p>`
